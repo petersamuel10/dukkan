@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".accountFragments.AccountInfo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="32dp"
+            android:src="@drawable/ic_arrow_left"
+            android:tint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:padding="4dp"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ic_logo"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/greyLight"
+            android:text="@string/user_information"
+            android:textColor="@color/red"
+            android:textSize="28sp"
+            android:padding="4dp"
+            android:gravity="center_horizontal"/>
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="64dp">
+
+       <EditText
+           android:id="@+id/user_name_ed"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp"
+           android:layout_marginBottom="8dp"
+           android:background="@drawable/border_edittext"
+           android:inputType="text"
+           android:padding="8dp"
+           android:hint="@string/user_name"
+           android:textColor="@android:color/black"
+           android:textSize="18sp" />
+
+       <EditText
+           android:id="@+id/email_ed"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="8dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp"
+           android:layout_marginBottom="8dp"
+           android:background="@drawable/border_edittext"
+           android:inputType="textEmailAddress"
+           android:padding="8dp"
+           android:hint="@string/email"
+           android:textColor="@android:color/black"
+           android:textSize="18sp" />
+
+       <EditText
+           android:id="@+id/phone_ed"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="4dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp"
+           android:layout_marginBottom="8dp"
+           android:background="@drawable/border_edittext"
+           android:inputType="phone"
+           android:padding="8dp"
+           android:hint="@string/phone"
+           android:textColor="@android:color/black"
+           android:textSize="18sp" />
+
+       <EditText
+           android:id="@+id/address_ed"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="4dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp"
+           android:layout_marginBottom="8dp"
+           android:background="@drawable/border_edittext"
+           android:inputType="text"
+           android:padding="8dp"
+           android:hint="@string/address"
+           android:textColor="@android:color/black"
+           android:textSize="18sp" />
+
+       <Button
+           android:id="@+id/updateBtn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/save"
+           android:textColor="@android:color/white"
+           android:textSize="20sp"
+           android:layout_margin="20dp"
+           android:background="@drawable/border_buttons"/>
+
+   </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dukkan Express</string>
+    <string name="title_home">Home</string>
+    <string name="my_list">My List</string>
+    <string name="offers">Offers</string>
+    <string name="companies">Companies</string>
+    <string name="userModel">User</string>
+
+    <string name="empty_cart">Your cart is empty.</string>
+    <string name="back">Back</string>
+    <string name="keep_cart">Keep cart</string>
+    <string name="are_you_wish_to_close">Are you wish to close ?</string>
+    <string name="go_back_will_be_clear_selected_items">Go Back will be clear selected items choices</string>
+    <string name="order_number">Order number :</string>
+    <string name="date">Date :</string>
+    <string name="time">Time :</string>
+    <string name="order_status">Order status :</string>
+    <string name="order_details">Order Details</string>
+    <string name="order_information">Order Information</string>
+    <string name="products">Products</string>
+    <string name="please_select_date">Please select date</string>
+    <string name="please_select_time">Please select time</string>
+    <string name="driver_notes">Driver notes</string>
+    <string name="cart_notes">Cart notes</string>
+    <string name="kitchen_notes">Kitchen notes</string>
+    <string name="continue_">Continue</string>
+    <string name="done">Done</string>
+    <string name="delivery_time">Delivery time :</string>
+    <string name="ok">Ok</string>
+    <string name="please_enter_email">Please enter your email</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="error_please_try_again_later">Error, please try again later.</string>
+    <string name="please_enter_user_name">Please enter your name</string>
+    <string name="please_enter_your_address">Please enter your  address.</string>
+    <string name="please_enter_your_phone">Please enter your telephone number</string>
+    <string name="please_enter_current_password">Please enter current password</string>
+    <string name="please_enter_new_password">Please enter new password</string>
+    <string name="please_enter_confirm_password">Please enter confirm password</string>
+    <string name="error_confirm_password_not_match_new_password">Error, confirm password not match new password</string>
+    <string name="please_select_payment_method">Please select payment method.</string>
+    <string name="error_no_internet_connection">Error, no internet connection.</string>
+    <string name="api" translatable="false">http://abdalluhzamil198272980.ipage.com/Dukkan_Express/webservices/api/</string>
+    <string name="image_link" translatable="false">http://abdalluhzamil198272980.ipage.com/Dukkan_Express</string>
+    <string name="login_faild">Login failed</string>
+    <string name="email_register_before">Email registered before</string>
+
+    <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="previouse_orders">Orders</string>
+    <string name="setting">Setting</string>
+    <string name="language">Language</string>
+    <string name="cart">Cart</string>
+    <string name="about_us">About villa</string>
+    <string name="please_login_to_continue">Please login to continue</string>
+    <string name="create_new_user">Create new userModel ?</string>
+    <string name="forget_password">Forget password</string>
+    <string name="title_activity_register" translatable="false">Register</string>
+    <string name="villa_vanalia">Villa Vanilla</string>
+    <string name="by_creating_an_account">By creating an account , you\'ll be able to shop faster if you order.</string>
+    <string name="user_name">User name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="phone">Mobile number</string>
+    <string name="address">Address</string>
+    <string name="register_now">Register now</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="change_password">Change password</string>
+    <string name="new_password">New password</string>
+    <string name="current_password">Current password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="user_information">Account information</string>
+    <string name="save">Save</string>
+    <string name="register">Register</string>
+    <string name="total">Total :</string>
+    <string name="pay_now">Checkout</string>
+    <string name="price">Price</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="how_to_pay">How to pay?</string>
+    <string name="knet">Knet</string>
+    <string name="paying_with_deliver">Paying with deliver</string>
+    <string name="pay_by_knet">You can pay by knet</string>
+    <string name="pay_in_deliver">You can pay with deliver</string>
+    <string name="total_price">Total price :</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="empty_order_list">There is no previous orders</string>
+    <string name="select_lagnuage">Select language :</string>
+    <string name="arabic" translatable="false">العربية</string>
+    <string name="english" translatable="false">English</string>
+    <string name="kd">KD</string>
+
+    <string name="empty_my_list">Your List is empty</string>
+    <string name="lang">ع</string>
+
+    <string name="watch_all">View all</string>
+    <string name="qty">Qty :</string>
+    <string name="select_count">Select Qty:</string>
+    <string name="this_item_already_exist_in_cart">This product already exist in cart.</string>
+    <string name="product_add_success">Product added to your cart  successfully</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thanks_you_for_your_order">Thanks you for your order</string>
+    <string name="your_price">" - your price : "</string>
+    <string name="your_price_after_discount">"- your price after discount : "</string>
+    <string name="your_gift_code_was_invalid">- your gift code was invalid.</string>
+    <string name="your_order_will_be_deliver">Your Order will be arrived after 40 minutes</string>
+    <string name="use_gift_code">USE GIFT CODE :</string>
+    <string name="enter_your_gift_code_if_you_have_one">Enter your gift code if you have one.</string>
+    <string name="gift_code">Gift code</string>
+    <string name="you_can_pay_cash_on_delivery">You Can Pay Cash On_Delivery</string>
+    <string name="you_can_pay_knet">You Can Pay Through Knet</string>
+</resources>
