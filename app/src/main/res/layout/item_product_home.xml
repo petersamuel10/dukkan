@@ -7,7 +7,7 @@
     android:layout_margin="4dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="4dp"
-    android:background="@color/greyLight">
+    android:background="@drawable/border_corner_grey_white">
 
     <ImageView
         android:id="@+id/product_image"

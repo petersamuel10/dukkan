@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.dukkanexpress">
+    package="com.app.dukkanexpress">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".SpalshScreen"
+        <activity android:name="com.app.dukkanexpress.SpalshScreen"
             android:screenOrientation="portrait"
             android:theme="@style/SplashActivityWithBGImageBackground"
             android:windowSoftInputMode="adjustResize|stateHidden">
@@ -24,10 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PaymentResult" />
+        <activity android:name="com.app.dukkanexpress.PaymentResult" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.app.dukkanexpress.MainActivity"
             android:windowSoftInputMode="adjustPan|adjustResize"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="292678b7d8363dad0de7963670bb3c75ec559f8a" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
